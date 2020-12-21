@@ -15,6 +15,8 @@
 		4FA6E728258751AC00D7E1C4 /* PodcastPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6E727258751AC00D7E1C4 /* PodcastPlayer.swift */; };
 		4FB9373F25885D92006463E4 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9373E25885D92006463E4 /* DataClass.swift */; };
 		4FB9374125885F6E006463E4 /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9374025885F6E006463E4 /* NavigationAction.swift */; };
+		4FB937A325904A1B006463E4 /* DataLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937A225904A1B006463E4 /* DataLand.swift */; };
+		4FB937A525905253006463E4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937A425905253006463E4 /* FavoriteButton.swift */; };
 		4FF5ADBC25820E81009AD3AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5ADBB25820E81009AD3AF /* AppDelegate.swift */; };
 		4FF5ADBE25820E81009AD3AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5ADBD25820E81009AD3AF /* SceneDelegate.swift */; };
 		4FF5ADC025820E81009AD3AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5ADBF25820E81009AD3AF /* ContentView.swift */; };
@@ -59,6 +61,8 @@
 		4FA6E727258751AC00D7E1C4 /* PodcastPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastPlayer.swift; sourceTree = "<group>"; };
 		4FB9373E25885D92006463E4 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
 		4FB9374025885F6E006463E4 /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
+		4FB937A225904A1B006463E4 /* DataLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLand.swift; sourceTree = "<group>"; };
+		4FB937A425905253006463E4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		4FF5ADB825820E81009AD3AF /* Fuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF5ADBB25820E81009AD3AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF5ADBD25820E81009AD3AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				4FA6E727258751AC00D7E1C4 /* PodcastPlayer.swift */,
 				4FB9373E25885D92006463E4 /* DataClass.swift */,
 				4FB9374025885F6E006463E4 /* NavigationAction.swift */,
+				4FB937A425905253006463E4 /* FavoriteButton.swift */,
 			);
 			path = Fuck;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				4FF5ADF7258215F9009AD3AF /* DataTest.swift */,
+				4FB937A225904A1B006463E4 /* DataLand.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				4FF5AE1125823752009AD3AF /* CircleView.swift in Sources */,
 				4FF5ADBC25820E81009AD3AF /* AppDelegate.swift in Sources */,
 				4FF5ADBE25820E81009AD3AF /* SceneDelegate.swift in Sources */,
+				4FB937A525905253006463E4 /* FavoriteButton.swift in Sources */,
 				4FB9374125885F6E006463E4 /* NavigationAction.swift in Sources */,
 				4FA6E71E25833AD900D7E1C4 /* MapView.swift in Sources */,
 				4FF5ADEF25820EFB009AD3AF /* SwiftUIViewList.swift in Sources */,
@@ -345,6 +352,7 @@
 				4FA6E728258751AC00D7E1C4 /* PodcastPlayer.swift in Sources */,
 				4FB9373F25885D92006463E4 /* DataClass.swift in Sources */,
 				4FA6E72625873F3C00D7E1C4 /* DelayedUpdater.swift in Sources */,
+				4FB937A325904A1B006463E4 /* DataLand.swift in Sources */,
 				4FF5ADF525821500009AD3AF /* SwiftListItem.swift in Sources */,
 				4FF5AE1325824280009AD3AF /* MapViews.swift in Sources */,
 				4FA6E72025835DB200D7E1C4 /* TabViewDis.swift in Sources */,

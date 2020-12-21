@@ -17,6 +17,12 @@ struct SwiftListItem: View {
             //            dataTest.name(forSize: 50)
             CircleImage(image: Image("rainbowlake"))
             Text(datt)
+            Spacer()
+//            if landmark.isFavorite {
+//                           Image(systemName: "star.fill")
+//                       }
+            Image(systemName: "star.fill")
+                               .foregroundColor(.yellow)
         }
     }
 }

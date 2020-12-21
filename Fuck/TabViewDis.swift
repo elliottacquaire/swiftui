@@ -122,6 +122,15 @@ struct TabViewDis: View {
                 })
                     .tag(2)
                 
+                VStack{
+                    Group{
+                        Image(systemName: "star.fill")
+                                           .foregroundColor(.yellow)
+                    }
+                }.tabItem({
+                    Image(systemName: "star")
+                    Text("Star")
+                    }).tag(3)
                 
                 
             }
